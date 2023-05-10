@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-app",
-  "version": "0.1.0",
+  "name": "online-shopping",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,7 +11,7 @@
     "react-datepicker": "^4.11.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
-    "react-router-dom": "^6.11.1",
+    "react-router-dom": "^6.1.1",
     "react-scripts": "5.0.1",
     "react-toastify": "^9.1.2",
     "web-vitals": "^2.1.4"
@@ -41,6 +41,6 @@
     ]
   },
   "devDependencies": {
-    "@rollup/plugin-terser": "^0.4.1"
+    "@rollup/plugin-terser": "^2.0.2"
   }
 }
