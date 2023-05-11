@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 import axios from "axios";
 import React from "react";
@@ -22,7 +23,8 @@ const MyCart = () => {
     };
 
     getMyCart();
-  }, []);
+  // eslint-disable-next-line no-use-before-define
+  }, [retrieveMyCart]);
 
   const retrieveMyCart = async () => {
     const response = await axios.get(
