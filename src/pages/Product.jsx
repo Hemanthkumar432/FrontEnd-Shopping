@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-hooks/exhaustive-deps */
 import GetAllCategories from "../productComponent/GetAllCategories";
 import CategoryNavigator from "../productComponent/CategoryNavigator";
 import { useParams } from "react-router-dom";

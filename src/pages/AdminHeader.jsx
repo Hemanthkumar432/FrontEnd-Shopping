@@ -3,6 +3,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const AdminHeader = () => {
+  // eslint-disable-next-line no-unused-vars
   let navigate = useNavigate();
 
   const user = JSON.parse(sessionStorage.getItem("active-admin"));

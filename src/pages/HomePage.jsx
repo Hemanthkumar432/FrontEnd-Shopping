@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import Carousel from "./Carousel";
 import GetAllCategories from "../productComponent/GetAllCategories";
 import ProductCard from "../productComponent/ProductCard";
